@@ -15,6 +15,7 @@
 		E890C67020EE457C0096F72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E890C66F20EE457C0096F72D /* Assets.xcassets */; };
 		E890C67320EE457C0096F72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E890C67120EE457C0096F72D /* LaunchScreen.storyboard */; };
 		E890C67E20EE457D0096F72D /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890C67D20EE457D0096F72D /* TestTests.swift */; };
+		E890C68A20EE535A0096F72D /* APIUnsplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890C68920EE535A0096F72D /* APIUnsplash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E890C67920EE457D0096F72D /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E890C67D20EE457D0096F72D /* TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
 		E890C67F20EE457D0096F72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E890C68920EE535A0096F72D /* APIUnsplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUnsplash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,8 @@
 		E890C66720EE457C0096F72D /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				E890C68B20EE6B770096F72D /* CoreData */,
+				E890C68820EE53180096F72D /* API */,
 				E890C66820EE457C0096F72D /* AppDelegate.swift */,
 				E890C66A20EE457C0096F72D /* ViewController.swift */,
 				E890C66C20EE457C0096F72D /* Main.storyboard */,
@@ -126,6 +130,21 @@
 				E890C67F20EE457D0096F72D /* Info.plist */,
 			);
 			path = TestTests;
+			sourceTree = "<group>";
+		};
+		E890C68820EE53180096F72D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E890C68920EE535A0096F72D /* APIUnsplash.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E890C68B20EE6B770096F72D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +375,7 @@
 			files = (
 				E890C66B20EE457C0096F72D /* ViewController.swift in Sources */,
 				E890C66920EE457C0096F72D /* AppDelegate.swift in Sources */,
+				E890C68A20EE535A0096F72D /* APIUnsplash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
