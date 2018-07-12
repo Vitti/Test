@@ -11,6 +11,8 @@ pod 'AlamofireImage', '~> 3.1'
 pod 'MagicalRecord'
 pod 'RxSwift',    '~> 4.0'
 pod 'RxCocoa',    '~> 4.0'
+pod 'RxAlamofire'
+pod 'RxDataSources', '~> 3.0'
 
   target 'TestTests' do
     inherit! :search_paths
